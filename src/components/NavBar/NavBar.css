@@ -1,0 +1,42 @@
+.topnav {
+    overflow: hidden;
+    background-color: rgb(197, 118, 45);
+    height: 80px;
+    margin-top: 50px;
+}
+
+.topnav a{
+    margin-left: 30px;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: bisque;
+    color: rgb(197, 118, 45);
+}
+
+.topnav a.active{
+    background-color:blue;
+    color:burlywood;
+}
+
+.logo{
+    width:100px;
+    height:50px;
+    float:left;
+}
+
+.icono{
+    width:100px;
+    height:50px;
+    float:right;
+    font-size:30px;
+    margin-top: 10px;
+}
